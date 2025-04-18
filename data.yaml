@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['advil', 'biscuit', 'butter', 'eyedrop', 'ibuprofen', 'mentos', 'moov', 'proteinbar', 'tictac', 'tylenol', 'volini']
+
+roboflow:
+  workspace: wildfiredetection-v4tt4
+  project: sorting_using_nvidia_stack
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wildfiredetection-v4tt4/sorting_using_nvidia_stack/dataset/1

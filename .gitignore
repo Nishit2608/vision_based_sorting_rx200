@@ -1,0 +1,8 @@
+__pycache__/
+*.npz
+*.npy
+*.pt
+*.pth
+runs/
+.idea/
+.vscode/
