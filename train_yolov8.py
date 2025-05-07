@@ -5,11 +5,11 @@ model = YOLO("yolov8n.pt")
 
 # Train the model
 model.train(
-    data="/home/nishit/sorting_using_yolo/data.yaml",  # ✅ Your full dataset path
+    data="/home/nishit/sorting_using_yolo/data.yaml",  #full dataset path
     epochs=50,
     imgsz=640,
-    batch=8,  # Adjust based on GPU memory
-    name="sorting_yolo_model",  # Saves to runs/detect/sorting_yolo_model
+    batch=8,  #adjustments
+    name="sorting_yolo_model",  #saves to runs/detect/sorting_yolo_model
     project="runs/detect"
 )
 
